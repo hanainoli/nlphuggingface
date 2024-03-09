@@ -1,0 +1,7 @@
+diffusers
+fastapi
+pydantic
+uvicorn
+tensorflow
+transformers
+tf-keras
