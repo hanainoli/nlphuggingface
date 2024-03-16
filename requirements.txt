@@ -1,7 +1,11 @@
 diffusers
 fastapi
 pydantic
-uvicorn
+# uvicorn
 tensorflow
 transformers
 tf-keras
+Flask
+pydub
+gunicorn
+ffmpeg
