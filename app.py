@@ -1,7 +1,5 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-
-
 from transformers import pipeline
 
 # Specify the model by its name
