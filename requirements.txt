@@ -5,3 +5,7 @@ uvicorn
 tensorflow
 transformers
 tf-keras
+Flask
+pydub
+# gunicorn
+# ffmpeg

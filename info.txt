@@ -1,9 +1,9 @@
-docker build -t sentiment-app .
-docker run -d -p 8000:8000 sentiment-app
+docker build -t impersonation .
+docker run -d -p 5000:5000 impersonation
 
-docker inspect sentiment-app
+docker inspect impersonation
 
-docker logs sentiment-app
+docker logs impersonation
 
 docker  stop <container name>
 
@@ -13,8 +13,8 @@ docker ps -a
 docker ps -s
 
 docker login
-docker tag sentiment-app  hanainoli/sentiment-app:1
-docker push hanainoli/sentiment-app:1
+docker tag impersonation  hanainoli/impersonation:1
+docker push hanainoli/impersonation:1
 
 
 
