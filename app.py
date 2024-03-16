@@ -45,5 +45,6 @@ def process_audio():
 
     return jsonify({'error': 'Unknown error'})
 
+
 if __name__ == '__main__':
     app.run(debug=True)
